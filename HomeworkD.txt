@@ -1,0 +1,11 @@
+So here is a neat visual effect where it makes the character's super ability make him look on fire through a shader effect and some particles. When the character activates his ability, through VFX he generates a mound of fire and creates a huge flaming sledgehammer. 
+
+I like it a lot because it makes the player feel powerful right when they activate their super ability.
+
+The shader on the player model does not seem to change on the camera view but the particles do.
+
+The effect generates an emmisive kind of effect to give the illusion that is on fire. It looks like it updates the geometry and with a noise texture and it has the texture changing through some fire gradient.
+
+I think it is similar to a dissolve texture but is always running, because of the way it is changing color throughout the geometry. 
+
+https://www.ronja-tutorials.com/2018/12/15/dissolve.html
